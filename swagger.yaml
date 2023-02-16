@@ -9,7 +9,7 @@ info:
 
 servers:
   - url: '{protocol}://{url}/api/{version}'
-    description: hosted on render.com
+    description: hosted on railway.com
     variables:
       version:
         enum:
@@ -19,8 +19,8 @@ servers:
       url:
         enum:
           - localhost:4000
-          - buytshirt-api-production.up.railway.app/
-        default: buytshirt-api-production.up.railway.app/
+          - buytshirt-api-production.up.railway.app
+        default: buytshirt-api-production.up.railway.app
       protocol:
         enum:
           - http
