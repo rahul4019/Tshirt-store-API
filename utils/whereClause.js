@@ -15,7 +15,7 @@ class WhereClause {
     const searchword = this.bigQ.search
       ? {
           name: {
-            $regex: this.bigQ.search, //will give realted results
+            $regex: this.bigQ.search, //will give related results
             $options: "i",
           },
         }
