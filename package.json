@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "a backend api for tshirt site",
   "main": "index.js",
+  "engines": {
+    "node": "14.20.0",
+    "npm": "7.24.2"
+  },
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
