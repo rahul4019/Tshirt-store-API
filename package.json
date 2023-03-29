@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "a backend api for tshirt site",
   "main": "index.js",
-  "engines": {
-    "node": "14.x"
-  },
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
@@ -15,7 +12,7 @@
     "backend"
   ],
   "author": "rahul4019",
-  "license": "ISC", 
+  "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cloudinary": "^1.31.0",
@@ -23,7 +20,7 @@
     "dotenv": "^16.0.2",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
-    "express-fileupload": "^1.4.0", 
+    "express-fileupload": "^1.4.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.6.0",
     "morgan": "^1.10.0",
