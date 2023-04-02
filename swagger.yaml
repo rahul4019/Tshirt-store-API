@@ -9,7 +9,7 @@ info:
 
 servers:
   - url: '{protocol}://{url}/api/{version}'
-    description: hosted on railway.com
+    description: hosted on onrender.com
     variables:
       version:
         enum:
@@ -19,8 +19,8 @@ servers:
       url:
         enum:
           - localhost:4000
-          - https://buy-tshirt-api.onrender.com
-        default: https://buy-tshirt-api.onrender.com
+          - buy-tshirt-api.onrender.com
+        default: buy-tshirt-api.onrender.com
       protocol:
         enum:
           - http
