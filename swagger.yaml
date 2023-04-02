@@ -19,8 +19,8 @@ servers:
       url:
         enum:
           - localhost:4000
-          - buytshirt-api-production.up.railway.app
-        default: buytshirt-api-production.up.railway.app
+          - https://buy-tshirt-api.onrender.com
+        default: https://buy-tshirt-api.onrender.com
       protocol:
         enum:
           - http
