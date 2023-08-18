@@ -9,7 +9,7 @@ info:
 
 servers:
   - url: '{protocol}://{url}/api/{version}'
-    description: hosted on onrender.com
+    description: Deployed on AWS
     variables:
       version:
         enum:
@@ -20,7 +20,8 @@ servers:
         enum:
           - localhost:4000
           - buy-tshirt-api.onrender.com
-        default: buy-tshirt-api.onrender.com
+          - tshirt-api.uk.to
+        default: tshirt-api.uk.to
       protocol:
         enum:
           - http
