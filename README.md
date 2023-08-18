@@ -2,9 +2,9 @@
 
 It's an API for Tshirt ecommerce store with functionality of user signup, login using jwt, logout and with custom roles for example Admin with power to update user's details, product's details and can manage various things in the database.
 
-### Hosted link: [Tshirt store api](https://buy-tshirt-api.onrender.com/api/v1)
+### Hosted link: [Tshirt store api](https://tshirt-api.uk.to/api/v1)
 
-### Documentation : [Api documentation](https://buy-tshirt-api.onrender.com/api-docs/)
+### Documentation : [Api documentation](https://tshirt-api.uk.to/api-docs/)
 
 ## Installation Guide
 
